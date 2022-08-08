@@ -315,7 +315,7 @@ function callNewAssets(){
       lc.forEach(item =>{
           setTimeout(()=>{
           item.classList.add('fade-out')
-          },1300)
+          },3000)
       })
     var objDiv2 = document.getElementById("l2div");
     var objDiv2Height = objDiv.scrollHeight;
