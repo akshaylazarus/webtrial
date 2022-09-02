@@ -1,6 +1,6 @@
 
 function callNewAssets(){
-    fetch('https://app.pricingculture.com/api/admin/newwebsiteassets?uat=true',{
+    fetch('https://app.pricingculture.com/api/admin/websiteassets?uat=true',{
       method: 'GET',
       headers: {
         'apikey':'5431724c-eddb-48d9-8a55-27b7b44afe01',
