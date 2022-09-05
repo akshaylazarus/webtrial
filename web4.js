@@ -509,7 +509,6 @@ function callNewAssets(){
         }
         else{
             let ddata = data.mobiledata;
-            let prev = null
             if(ddata.length <10){
                 for(let i=0;i<5;i++){
                   data.mobiledata.forEach(item => {
@@ -713,29 +712,29 @@ function callNewAssets(){
                 l3m.appendChild(c12)
             })
 
-            var objDiv1 = document.getElementById("l1m");
-            var objDiv1Height = objDiv1.scrollHeight;
-            let speed = 1
+            var objDiv1m = document.getElementById("l1m");
+            var objDiv1mHeight = objDiv1m.scrollHeight;
+            let speed1 = 1
             setInterval(() => {
-                if (objDiv1.scrollTop !== objDiv1Height) {
-                objDiv1.scrollTo(0, objDiv1.scrollTop + speed1);
+                if (objDiv1m.scrollTop !== objDiv1mHeight) {
+                objDiv1m.scrollTo(0, objDiv1m.scrollTop + speed1);
                 }
             }, 17);
 
-            var objDiv2 = document.getElementById("l2m");
-            var objDiv2Height = objDiv.scrollHeight;
+            var objDiv2m = document.getElementById("l2m");
+            var objDiv2mHeight = objDiv2m.scrollHeight;
             let speedl2=1
             setInterval(() => {
-                if (objDiv2.scrollTop !== objDiv2Height) {
-                objDiv2.scrollTo(0, objDiv2.scrollTop + speedl2);
+                if (objDiv2m.scrollTop !== objDiv2mHeight) {
+                objDiv2m.scrollTo(0, objDiv2m.scrollTop + speedl2);
                 }
             }, 17);
         
-            var objDiv3 = document.getElementById("l3m");
-            var objDiv3Height = objDiv.scrollHeight;
+            var objDiv3m = document.getElementById("l3m");
+            var objDiv3mHeight = objDiv.scrollHeight;
             setInterval(() => {
-                if (objDiv3.scrollTop !== objDiv3Height) {
-                objDiv3.scrollTo(0, objDiv3.scrollTop + speed);
+                if (objDiv3m.scrollTop !== objDiv3mHeight) {
+                objDiv3m.scrollTo(0, objDiv3m.scrollTop + speed1);
                 }
             }, 17);   
         }
