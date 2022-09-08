@@ -794,7 +794,6 @@ function callNewAssets(){
             let speedl1 = 1
             setInterval(() => {
                 if (objDiv1m.scrollTop !== objDiv1mHeight) {
-                    console.log('SCROLLED L1')
                     objDiv1m.scrollTo(0, objDiv1m.scrollTop + speedl1);
                 }
             }, 17/mmul);
@@ -804,7 +803,6 @@ function callNewAssets(){
             let speedl2=1
             setInterval(() => {
                 if (objDiv2m.scrollTop !== objDiv2mHeight) {
-                    console.log('SCROLLED L2')
                     objDiv2m.scrollTo(0, objDiv2m.scrollTop + speedl2);
                 }
             }, 17/mmul);
@@ -813,7 +811,6 @@ function callNewAssets(){
             var objDiv3mHeight = objDiv3m.scrollHeight;
             setInterval(() => {
                 if (objDiv3m.scrollTop !== objDiv3mHeight) {
-                    console.log('SCROLLED L3')
                     objDiv3m.scrollTo(0, objDiv3m.scrollTop + speedl1);
                 }
             }, 17/mmul);   
